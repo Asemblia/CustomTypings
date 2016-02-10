@@ -1,0 +1,2 @@
+# CustomTypings
+Custom TypeScript definitions
