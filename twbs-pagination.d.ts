@@ -8,6 +8,7 @@ declare namespace TwbsPagination {
         first? : string,
         prev? : string,
         last? : string,
+        next? : string,
         loop? : boolean,
         paginationClass? : string,
         onPageClick : (event : Event, page : number) => void
