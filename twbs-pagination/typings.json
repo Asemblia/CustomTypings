@@ -1,0 +1,12 @@
+{
+  "name": "twbs-pagination",
+  "main": "twbs-pagination.d.ts",
+  "homepage": "",
+  "version": "",
+  "globalDevDependencies": {
+    
+  },
+  "devDependencies": {
+    
+  }
+}
