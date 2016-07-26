@@ -1,0 +1,7 @@
+{
+  "name": "",
+  "dependencies": {},
+  "globalDependencies": {
+    "twbs-pagination": "twbs-pagination.d.ts"
+  }
+}
