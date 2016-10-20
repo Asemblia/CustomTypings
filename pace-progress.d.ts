@@ -1,4 +1,4 @@
-declare module 'Pace' {
+declare module 'pace' {
     interface PaceOptions {
         catchupTime?: number;
         initialRate?: number;
