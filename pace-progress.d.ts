@@ -1,19 +1,19 @@
 declare module 'Pace' {
     interface PaceOptions {
-        catchupTime: number;
-        initialRate: number;
-        ghostTime: number;
-        maxProgressPerFrame: number;
-        easeFactor: number;
-        startOnPageLoad: boolean;
-        restartOnPushState: boolean;
-        restartOnRequestAfter: boolean;
-        target: string;
-        elements: { checkInterval: number, selectors: string[] },
-        eventLag: { minSamples: number, sampleCount: number; lagThreshold: number; }
-        ajax: { trackMethods: string[], trackWebSockets: boolean, ignoreURLs: string[] },
-        extraSources: PaceSource[];
-        document: boolean;
+        catchupTime?: number;
+        initialRate?: number;
+        ghostTime?: number;
+        maxProgressPerFrame?: number;
+        easeFactor?: number;
+        startOnPageLoad?: boolean;
+        restartOnPushState?: boolean;
+        restartOnRequestAfter?: boolean;
+        target?: string;
+        elements?: { checkInterval: number, selectors: string[] },
+        eventLag?: { minSamples: number, sampleCount: number; lagThreshold: number; }
+        ajax?: { trackMethods: string[], trackWebSockets: boolean, ignoreURLs: string[] },
+        extraSources?: PaceSource[];
+        document?: boolean;
     }
 
     interface PaceElement {
