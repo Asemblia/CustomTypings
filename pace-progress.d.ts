@@ -13,6 +13,7 @@ declare module 'Pace' {
         eventLag: { minSamples: number, sampleCount: number; lagThreshold: number; }
         ajax: { trackMethods: string[], trackWebSockets: boolean, ignoreURLs: string[] },
         extraSources: PaceSource[];
+        document: boolean;
     }
 
     interface PaceElement {
@@ -28,7 +29,7 @@ declare module 'Pace' {
     var options: PaceOptions;
     var sources: string[];
     function trigger(action: string): void;
-    function start(): number;
+    function start(options : PaceOptions): number;
     function go(): number;
     function stop(): number;
     function restart(): number;
